@@ -22,12 +22,16 @@ headerr {
     background-color: aqua;
     
     max-height: 40px;
-    margin: auto;
-    
-    
+    margin: auto;     
 }
 
+a:hover {
+    color: red;
+}
 
+ul {
+    list-style-type: none;
+}
 .container {
     
     font-family: var(--fonte01);
@@ -47,10 +51,13 @@ headerr {
         
 }
 
-.redes-sociais > p, img, span {
+.redes-sociais > p, img, span, a {
     margin-left: 5px;
     margin-right: 5px;
+    text-decoration: none;
+    color: #000;
 }
+
 
 .container-logo {
     font-family: var(--fonte01);
@@ -74,6 +81,7 @@ headerr {
 
 .endereco, .icone, .fones {
     margin-left: 20px;
+    display: grid;
 }
     
 #linha {
@@ -104,6 +112,7 @@ section {
     position: relative;
 }
 
+
 .menu {
     background-color: #E8E9EB;
     width: 1100px;
@@ -115,7 +124,7 @@ section {
     transform: translate(-50%); 
 }
 
-.listamenu {
+.listmenu {
     font-family: var(--fonte03);
     display: flex;
     justify-content: space-around;
@@ -124,11 +133,15 @@ section {
     margin-right: 150px;
 }
 
-.listamenu > a {
+.listmenu > a {
     text-decoration: none;
     color: black;
     font-size: 14px;      
 }
+
+
+
+
 
 /* Centro */
 
@@ -173,7 +186,12 @@ section {
     width: 250px;
     height: 35px;
     border-radius: 5px;
+    border-color: transparent;
     
+}
+
+.botao:hover {
+    background-color: chocolate;
 }
 
 .carossel {
