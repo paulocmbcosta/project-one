@@ -1,2 +1,2 @@
 # project-one
- Site - Llja de móveis
+ Site - Loja de móveis
